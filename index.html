@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Liste de Tâches</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liste de Tâches Évoluée</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div id="app">
-    <h1>Ma Liste de Tâches</h1>
-    <div id="task-form"></div>
-    <ul id="task-list"></ul>
+    <header class="header">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <h1>Ma Liste de Tâches</h1>
+    </header>
+
+    <main class="main-container">
+      <section id="task-form-section">
+        <h2>Ajouter une tâche</h2>
+        <div id="task-form"></div>
+      </section>
+
+      <!-- Liste de tâches -->
+      <section id="task-list-section">
+        <div class="table-header">
+          <h2>Mes Tâches</h2>
+          <div id="category-filter"></div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Couleur</th>
+              <th>Tâche</th>
+              <th>Catégorie</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="task-list"></tbody>
+        </table>
+      </section>
+    </main>
   </div>
 
   <script src="model.js"></script>
