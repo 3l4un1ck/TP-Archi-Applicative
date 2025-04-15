@@ -53,7 +53,7 @@ liste-taches-evoluee/
 Aucune dépendance externe requise. L'application utilise uniquement :
 - HTML5
 - CSS3
-- JavaScript Vanilla
+- JavaScript
 
 ## Capture d'écran
 
