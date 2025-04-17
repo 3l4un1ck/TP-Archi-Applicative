@@ -1,4 +1,4 @@
-# Liste de Tâches TOHO Mahugnon
+# Liste de Tâches
 
 Une application web simple pour gérer vos tâches avec des catégories et des couleurs.
 
